@@ -5,13 +5,16 @@ import { menuData } from "../data/MenuData";
 
 const Header = () => {
   return (
-    <div className="bg-indigo-200 p-6">
-      <FiMenu className="h-10 w-10" />
-      {menuData.map((item, index) => (
-        <div key={index} to={item.link}>
-          {item.title}
-        </div>
-      ))}
+    <div className="bg-indigo-200 p-4 flex justify-between items-center">
+      <div className="text-3xl">Autoroot</div>
+      <div className="flex gap-3">
+        <FiMenu className="h-10 w-10 md:hidden" />
+        {menuData.map((item, index) => (
+          <div className="hidden md:flex" key={index} to={item.link}>
+            {item.title}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

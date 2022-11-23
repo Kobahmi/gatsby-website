@@ -344,7 +344,10 @@ const Header = () => {
     className: "bg-indigo-200 p-6"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_react_icons_all_files_fi_FiMenu__WEBPACK_IMPORTED_MODULE_3__.FiMenu, {
     className: "h-10 w-10"
-  }));
+  }), _data_MenuData__WEBPACK_IMPORTED_MODULE_2__.menuData.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    key: index,
+    to: item.link
+  }, item.title)));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
