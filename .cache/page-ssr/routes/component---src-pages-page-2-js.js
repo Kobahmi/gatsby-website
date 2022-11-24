@@ -341,13 +341,18 @@ __webpack_require__.r(__webpack_exports__);
 
 const Header = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bg-indigo-200 p-6"
+    className: "bg-indigo-200 p-4 flex justify-between items-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "text-3xl"
+  }, "Autoroot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "flex gap-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_react_icons_all_files_fi_FiMenu__WEBPACK_IMPORTED_MODULE_3__.FiMenu, {
-    className: "h-10 w-10"
-  }), _data_MenuData__WEBPACK_IMPORTED_MODULE_2__.menuData.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "h-10 w-10 md:hidden"
+  }), _data_MenuData__WEBPACK_IMPORTED_MODULE_2__.menuData.map((item, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    className: "hidden md:flex",
     key: index,
     to: item.link
-  }, item.title)));
+  }, item.title))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
 
@@ -485,7 +490,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const SecondPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "Hi from the second page"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Welcome to page 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: "/"
+  to: "contact"
 }, "Go back to the homepage"));
 const Head = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
   title: "Page two"

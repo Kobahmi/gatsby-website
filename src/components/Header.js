@@ -10,9 +10,9 @@ const Header = () => {
       <div className="flex gap-3">
         <FiMenu className="h-10 w-10 md:hidden" />
         {menuData.map((item, index) => (
-          <div className="hidden md:flex" key={index} to={item.link}>
+          <Link className="hidden md:flex" key={index} to={item.link}>
             {item.title}
-          </div>
+          </Link>
         ))}
       </div>
     </div>
