@@ -5,7 +5,7 @@ import { menuData } from "../data/MenuData";
 
 const Header = () => {
   return (
-    <div className="bg-indigo-200 p-4 flex justify-between items-center">
+    <div className="p-4 flex justify-between items-center text-white absolute w-screen">
       <div className="text-3xl">Autoroot</div>
       <div className="flex gap-3">
         <FiMenu className="h-10 w-10 md:hidden" />
