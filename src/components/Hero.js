@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative min-h-screen w-screen">
       <Header />
-      <div className="z-10 flex flex-col gap-2 absolute text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
+      <div className="z-10 flex flex-col gap-3 absolute text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
         <h1
           data-aos="fade-up"
           className="md:text-3xl lg:text-5xl xl:text-6xl font-bold whitespace-nowrap"
@@ -18,7 +18,7 @@ const Hero = () => {
           data-aos-easing="ease-in-back"
           data-aos-delay="100"
           data-aos-offset="0"
-          className="flex flex-col gap-2"
+          className="flex flex-col gap-3"
         >
           <p className="w-full">
             We offer customers the ability to buy cars online and much more.
