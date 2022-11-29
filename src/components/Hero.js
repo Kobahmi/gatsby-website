@@ -13,16 +13,21 @@ const Hero = () => {
         >
           Efficient Software Services
         </h1>
-        <p data-aos="fade-up" className="w-full">
-          We offer customers the ability to buy cars online and much more.
-          Autoroot's modern platform is simple and easy to use.
-        </p>
-        <button
-          data-aos="fade-up"
-          className="m-auto bg-sky-700 hover:bg-sky-800 duration-300 ease-in-out p-2 rounded text-xl font-bold"
+        <div
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="100"
+          data-aos-offset="0"
+          className="flex flex-col gap-2"
         >
-          Explore
-        </button>
+          <p className="w-full">
+            We offer customers the ability to buy cars online and much more.
+            Autoroot's modern platform is simple and easy to use.
+          </p>
+          <button className="m-auto bg-sky-700 hover:bg-sky-800 duration-300 ease-in-out p-2 rounded text-xl font-bold">
+            Explore
+          </button>
+        </div>
       </div>
       <h2 className="z-10 absolute text-2xl font-bold bottom-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200">
         Trusted by Everyone
