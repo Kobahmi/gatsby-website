@@ -1013,19 +1013,17 @@ const Hero = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     "data-aos": "fade-up",
     className: "md:text-3xl lg:text-5xl xl:text-6xl font-bold whitespace-nowrap"
-  }, "Efficient Software Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+  }, "Efficient Software Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     "data-aos": "fade-zoom-in",
     "data-aos-easing": "ease-in-back",
     "data-aos-delay": "100",
     "data-aos-offset": "0",
+    className: "flex flex-col gap-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "w-full"
   }, "We offer customers the ability to buy cars online and much more. Autoroot's modern platform is simple and easy to use."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    "data-aos": "fade-zoom-in",
-    "data-aos-easing": "ease-in-back",
-    "data-aos-delay": "100",
-    "data-aos-offset": "0",
     className: "m-auto bg-sky-700 hover:bg-sky-800 duration-300 ease-in-out p-2 rounded text-xl font-bold"
-  }, "Explore")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+  }, "Explore"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "z-10 absolute text-2xl font-bold bottom-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200"
   }, "Trusted by Everyone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "absolute h-screen w-screen bg-slate-900 bg-opacity-40"
@@ -1066,7 +1064,7 @@ const Service = () => {
     "data-aos": "fade-up",
     className: "md:text-3xl lg:text-5xl xl:text-6xl"
   }, "Improve Rentability"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "flex"
+    className: "flex absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "77% increase in client satisfaction"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, "77% increase in productivity"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "absolute  h-[50vh] w-screen bg-slate-900 "
   }));
