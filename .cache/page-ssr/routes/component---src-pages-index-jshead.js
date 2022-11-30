@@ -1070,7 +1070,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Footer = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "flex flex-col justify-center items-center min-h-[640px] max-h-[50vh] w-screen bg-slate-900 text-white"
+    className: "flex flex-col justify-center items-center min-h-[600px] max-h-[50vh] w-screen bg-slate-900 text-white"
   }, "Footer here");
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
@@ -1302,13 +1302,15 @@ __webpack_require__.r(__webpack_exports__);
 
 const Signup = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative min-h-[640px] max-h-[50vh] w-screen"
+    className: "relative min-h-[600px] max-h-[50vh] w-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
     className: "absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
-  }, "Form here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "md:text-3xl lg:text-5xl xl:text-6xl font-bold text-center"
+  }, "Modernize Car Shopping with Autoroot")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "absolute min-h-[640px] h-[50vh] w-screen bg-slate-900 bg-opacity-50"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "object-cover min-h-[640px] h-[50vh] w-screen pointer-events-none",
+    className: "object-cover min-h-[640px] h-[50vh] w-screen",
     src: _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: ""
   }));
