@@ -978,6 +978,105 @@ var aos = {
 
 /***/ }),
 
+/***/ "./src/components/Features.js":
+/*!************************************!*\
+  !*** ./src/components/Features.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_car1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/car1.jpg */ "./src/assets/images/car1.jpg");
+/* harmony import */ var _assets_images_car2_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/images/car2.jpg */ "./src/assets/images/car2.jpg");
+/* harmony import */ var _assets_images_car3_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/car3.jpg */ "./src/assets/images/car3.jpg");
+/* harmony import */ var _assets_images_car4_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/car4.jpg */ "./src/assets/images/car4.jpg");
+
+
+
+
+
+const Features = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "relative flex flex-col justify-center items-center min-h-[800px] h-screen w-screen bg-slate-900 text-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    "data-aos": "fade-zoom-in",
+    "data-aos-easing": "ease-in-back",
+    className: " md:text-3xl lg:text-5xl xl:text-6xl"
+  }, "See Autoroot in Action"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    "data-aos": "fade-zoom-in",
+    "data-aos-easing": "ease-in-back",
+    "data-aos-delay": "300",
+    "data-aos-offset": "0",
+    className: "mt-10 pb-20"
+  }, "Instant pricing. Express checkout. Home delivery."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    "data-aos": "fade-up",
+    className: "flex gap-4 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "relative rounded w-[25rem] h-[40rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  }, "Build & Customize"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: " w-[25rem] h-[40rem] hover:scale-110 transition duration-300 ease-in-out",
+    src: _assets_images_car1_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "relative rounded w-[25rem] h-[40rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  }, "Shop Pre-Owned"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: " w-[25rem] h-[40rem] hover:scale-110 transition duration-300 ease-in-out",
+    src: _assets_images_car2_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "relative rounded w-[25rem] h-[40rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  }, "100% Online"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: " w-[25rem] h-[40rem] hover:scale-110 transition duration-300 ease-in-out",
+    src: _assets_images_car3_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+    alt: ""
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "relative rounded w-[25rem] h-[40rem] overflow-hidden"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "text-lg hover:bg-slate-200 rounded-full text-black p-5 bg-white z-10 absolute bottom-14 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  }, "Become a Dealer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: " w-[25rem] h-[40rem] hover:scale-110 transition duration-300 ease-in-out",
+    src: _assets_images_car4_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    alt: ""
+  }))));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Features);
+
+/***/ }),
+
+/***/ "./src/components/Footer.js":
+/*!**********************************!*\
+  !*** ./src/components/Footer.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const Footer = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "flex flex-col justify-center items-center min-h-[640px] max-h-[50vh] w-screen bg-slate-900 text-white"
+  }, "Footer here");
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
 /***/ "./src/components/Header.js":
 /*!**********************************!*\
   !*** ./src/components/Header.js ***!
@@ -1037,7 +1136,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Hero = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative min-h-screen w-screen"
+    className: "relative min-h-[640px] max-h-screen w-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "z-10 flex flex-col gap-3 absolute text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
@@ -1056,9 +1155,9 @@ const Hero = () => {
   }, "Explore"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "z-10 absolute text-2xl font-bold bottom-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200"
   }, "Trusted by Everyone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "absolute h-screen w-screen bg-slate-900 bg-opacity-40"
+    className: "absolute min-h-[640px] h-screen w-screen bg-slate-900 bg-opacity-40"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("video", {
-    className: "object-cover h-screen w-screen pointer-events-none",
+    className: "object-cover min-h-[640px] h-screen w-screen pointer-events-none",
     src: _assets_videos_space_mp4__WEBPACK_IMPORTED_MODULE_1__["default"],
     type: "video/mp4",
     autoPlay: true,
@@ -1091,7 +1190,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Service = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative h-[50vh] w-screen"
+    className: "relative min-h-[640px] max-h-[50vh] w-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
@@ -1134,7 +1233,7 @@ const Service = () => {
   }, "Our simple and modern design enables partners to sell 76% more cars than the industry average every month."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "m-auto bg-sky-700 hover:bg-sky-800 duration-300 ease-in-out p-2 rounded text-xl font-bold absolute bottom-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
   }, "Sign up"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "absolute  h-[50vh] w-screen bg-slate-900 "
+    className: "absolute min-h-[640px] h-[50vh] w-screen bg-slate-900 "
   }));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Service);
@@ -1159,16 +1258,62 @@ __webpack_require__.r(__webpack_exports__);
 
 const Shop = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative h-[50vh] w-screen"
+    className: "relative min-h-[640px] max-h-[50vh] w-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "absolute h-[50vh] w-screen bg-gray-900 bg-opacity-60"
+    className: "absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    "data-aos": "fade-down",
+    className: "md:text-3xl lg:text-5xl xl:text-6xl"
+  }, "Discover the Best Options")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex items-center gap-10 z-10 absolute text-2xl font-bold top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    "data-aos": "fade-up",
+    className: "hover:bg-slate-200 p-6 rounded-full bg-white text-black"
+  }, "SHOP OUR DEALERS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    "data-aos": "fade-up",
+    className: "hover:underline"
+  }, "See testimonials")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "absolute min-h-[640px] h-[50vh] w-screen bg-gray-900 bg-opacity-60"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "object-cover h-[50vh] w-screen pointer-events-none",
+    className: "object-cover min-h-[640px] h-[50vh] w-screen pointer-events-none",
     src: _assets_images_meeting_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
     alt: "shop"
   }));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Shop);
+
+/***/ }),
+
+/***/ "./src/components/Signup.js":
+/*!**********************************!*\
+  !*** ./src/components/Signup.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/background.jpg */ "./src/assets/images/background.jpg");
+
+
+const Signup = () => {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: "relative min-h-[640px] max-h-[50vh] w-screen"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    className: "absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
+  }, "Form here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "absolute min-h-[640px] h-[50vh] w-screen bg-slate-900 bg-opacity-50"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "object-cover min-h-[640px] h-[50vh] w-screen pointer-events-none",
+    src: _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+    alt: ""
+  }));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Signup);
 
 /***/ }),
 
@@ -1304,6 +1449,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
 /* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _components_Shop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Shop */ "./src/components/Shop.js");
+/* harmony import */ var _components_Features__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Features */ "./src/components/Features.js");
+/* harmony import */ var _components_Signup__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Signup */ "./src/components/Signup.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Footer */ "./src/components/Footer.js");
 
 
 
@@ -1313,6 +1461,9 @@ __webpack_require__.r(__webpack_exports__);
 
  // You can also use <link> for styles
 
+
+
+
 const IndexPage = () => {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     aos__WEBPACK_IMPORTED_MODULE_5__["default"].init();
@@ -1320,7 +1471,7 @@ const IndexPage = () => {
   }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_3__["default"], {
     title: "Home"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Service__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Shop__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Service__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Shop__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Features__WEBPACK_IMPORTED_MODULE_8__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Signup__WEBPACK_IMPORTED_MODULE_9__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
@@ -2172,6 +2323,81 @@ module.exports = throttle;
 
 /***/ }),
 
+/***/ "./src/assets/images/background.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/background.jpg ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/background-88932a600745215b0045a815f5d280db.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/car1.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/car1.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/car1-823f9a7d49f1e579113180d2eb19f422.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/car2.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/car2.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/car2-e1288a7169e2eb0b09aaa0506941c24b.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/car3.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/car3.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/car3-80226aa99ea58dafafc0b43a63535b77.jpg");
+
+/***/ }),
+
+/***/ "./src/assets/images/car4.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/car4.jpg ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/car4-9b28d4b198d9eae0681bb845843eb035.jpg");
+
+/***/ }),
+
 /***/ "./src/assets/images/meeting.jpg":
 /*!***************************************!*\
   !*** ./src/assets/images/meeting.jpg ***!
@@ -2183,7 +2409,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/meeting-ef8f71d47efe9e20b9341839bd636188.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/meeting-28c856e62eaa94ab02672a46b6e6249d.jpg");
 
 /***/ }),
 
