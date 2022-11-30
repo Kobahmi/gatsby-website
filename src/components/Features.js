@@ -17,9 +17,9 @@ const Features = () => {
       <p
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-delay="200"
+        data-aos-delay="300"
         data-aos-offset="0"
-        className="p-10"
+        className="mt-10 pb-20"
       >
         Instant pricing. Express checkout. Home delivery.
       </p>

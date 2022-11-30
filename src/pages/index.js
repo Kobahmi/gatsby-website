@@ -8,6 +8,8 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Shop from "../components/Shop";
 import Features from "../components/Features";
+import Signup from "../components/Signup";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -23,6 +25,8 @@ const IndexPage = () => {
       <Service />
       <Shop />
       <Features />
+      <Signup />
+      <Footer />
     </Layout>
   );
 };
