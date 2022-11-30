@@ -4,7 +4,7 @@ import Header from "../components/Header";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen w-screen">
+    <section className="relative min-h-[640px] max-h-screen w-screen">
       <Header />
       <div className="z-10 flex flex-col gap-3 absolute text-center top-1/2 left-2/3 transform -translate-x-1/2 -translate-y-1/2 text-white">
         <h1
@@ -32,9 +32,9 @@ const Hero = () => {
       <h2 className="z-10 absolute text-2xl font-bold bottom-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-slate-200">
         Trusted by Everyone
       </h2>
-      <div className="absolute h-screen w-screen bg-slate-900 bg-opacity-40"></div>
+      <div className="absolute min-h-[640px] h-screen w-screen bg-slate-900 bg-opacity-40"></div>
       <video
-        className="object-cover h-screen w-screen pointer-events-none"
+        className="object-cover min-h-[640px] h-screen w-screen pointer-events-none"
         src={Video}
         type="video/mp4"
         autoPlay

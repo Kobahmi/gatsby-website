@@ -4,7 +4,7 @@ import { BsClockHistory } from "@react-icons/all-files/bs/BsClockHistory";
 
 const Service = () => {
   return (
-    <section className="relative h-[50vh] w-screen">
+    <section className="relative min-h-[640px] max-h-[50vh] w-screen">
       <div className="absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white">
         <h1 data-aos="fade-up" className="md:text-3xl lg:text-5xl xl:text-6xl">
           Improve Rentability
@@ -51,7 +51,7 @@ const Service = () => {
       <button className="m-auto bg-sky-700 hover:bg-sky-800 duration-300 ease-in-out p-2 rounded text-xl font-bold absolute bottom-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white">
         Sign up
       </button>
-      <div className="absolute  h-[50vh] w-screen bg-slate-900 "></div>
+      <div className="absolute min-h-[640px] h-[50vh] w-screen bg-slate-900 "></div>
     </section>
   );
 };

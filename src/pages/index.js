@@ -7,6 +7,7 @@ import Service from "../components/Service";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 import Shop from "../components/Shop";
+import Features from "../components/Features";
 
 const IndexPage = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const IndexPage = () => {
       <Hero />
       <Service />
       <Shop />
+      <Features />
     </Layout>
   );
 };
