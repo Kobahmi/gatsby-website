@@ -1077,6 +1077,41 @@ const Footer = () => {
 
 /***/ }),
 
+/***/ "./src/components/FormInput.js":
+/*!*************************************!*\
+  !*** ./src/components/FormInput.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+const FormInput = props => {
+  const {
+    label,
+    onChange,
+    id,
+    ...inputProps
+  } = props;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "flex flex-col pt-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    className: "text-white"
+  }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", Object.assign({
+    className: "p-2 rounded"
+  }, inputProps, {
+    onChange: onChange
+  })));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (FormInput);
+
+/***/ }),
+
 /***/ "./src/components/Header.js":
 /*!**********************************!*\
   !*** ./src/components/Header.js ***!
@@ -1298,16 +1333,76 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _assets_images_background_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/background.jpg */ "./src/assets/images/background.jpg");
+/* harmony import */ var _FormInput__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./FormInput */ "./src/components/FormInput.js");
+
 
 
 const Signup = () => {
+  const {
+    0: values,
+    1: setValues
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({
+    firstname: "",
+    lastname: "",
+    dealer: "",
+    email: "",
+    phone: ""
+  });
+  const inputs = [{
+    id: 1,
+    name: "firstname",
+    type: "text",
+    placeholder: "First Name",
+    label: "First Name"
+  }, {
+    id: 2,
+    name: "lastname",
+    type: "text",
+    placeholder: "Last Name",
+    label: "Last Name"
+  }, {
+    id: 3,
+    name: "dealer",
+    type: "text",
+    placeholder: "Dealer",
+    label: "Dealer"
+  }, {
+    id: 4,
+    name: "email",
+    type: "text",
+    placeholder: "Email",
+    label: "Email"
+  }, {
+    id: 5,
+    name: "phone",
+    type: "text",
+    placeholder: "Phone",
+    label: "Phone"
+  }];
+  const handleSubmit = e => {
+    e.preventDefault();
+  };
+  const onChange = e => {
+    setValues({
+      ...values,
+      [e.target.name]: e.target.value
+    });
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: "relative min-h-[600px] max-h-[50vh] w-screen"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    className: "absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white"
+    className: "relative  min-h-[600px] max-h-[50vh] w-screen"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "md:text-3xl lg:text-5xl xl:text-6xl font-bold text-center"
-  }, "Modernize Car Shopping with Autoroot")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "absolute top-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-white md:text-3xl lg:text-5xl xl:text-6xl font-bold text-center"
+  }, "Modernize Businesses with Autoroot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    className: "absolute pb-5 flex flex-col items-center top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10",
+    onSubmit: handleSubmit
+  }, inputs.map(input => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FormInput__WEBPACK_IMPORTED_MODULE_2__["default"], Object.assign({
+    key: input.id
+  }, input, {
+    value: values[input.name],
+    onChange: onChange
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "bg-white m-5 text-lg hover:bg-slate-200 rounded-full text-black py-4 px-10"
+  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "absolute min-h-[640px] h-[50vh] w-screen bg-slate-900 bg-opacity-50"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "object-cover min-h-[640px] h-[50vh] w-screen",

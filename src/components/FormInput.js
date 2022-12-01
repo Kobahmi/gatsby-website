@@ -5,7 +5,7 @@ const FormInput = (props) => {
   return (
     <div className="flex flex-col pt-5">
       <label className="text-white">{label}</label>
-      <input className="p-2 rounded" {...inputProps} onChange={onChange} />
+      <input className="p-2 rounded w-96" {...inputProps} onChange={onChange} />
     </div>
   );
 };
