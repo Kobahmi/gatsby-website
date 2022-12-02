@@ -1071,7 +1071,9 @@ __webpack_require__.r(__webpack_exports__);
 const Footer = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: "flex flex-col justify-center items-center min-h-[600px] max-h-[50vh] w-screen bg-slate-900 text-white"
-  }, "Footer here");
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "md:text-3xl lg:text-5xl xl:text-6xl font-bold whitespace-nowrap"
+  }, "Autoroot"));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
 
@@ -1103,7 +1105,7 @@ const FormInput = props => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
     className: "text-white"
   }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", Object.assign({
-    className: "p-2 rounded"
+    className: "p-2 rounded w-96"
   }, inputProps, {
     onChange: onChange
   })));
